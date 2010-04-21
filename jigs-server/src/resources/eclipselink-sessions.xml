@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipselink-sessions version="10g Release 3 (10.1.3.0.0)"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<session xsi:type="server-session">
+		<name>default_session</name>
+		<event-listener-classes />
+		<logging xsi:type="eclipselink-log">
+			<log-level>finest</log-level>
+			<logging-options>
+				<log-exception-stacktrace>true</log-exception-stacktrace>
+				<print-thread>false</print-thread>
+				<print-session>true</print-session>
+				<print-connection>false</print-connection>
+				<print-date>false</print-date>
+			</logging-options>
+		</logging>
+		<primary-project xsi:type="class">ClassName of EclipseLink project class.</primary-project>
+		<login xsi:type="database-login">
+			<platform-class>org.eclipse.persistence.platform.database.PostgreSQLPlatform</platform-class>
+			<user-name>TBD</user-name>
+			<password>TBD</password>
+			<sequencing>
+				<default-sequence xsi:type="native-sequence">
+					<name>Default</name>
+				</default-sequence>
+			</sequencing>
+			<driver-class></driver-class>
+			<connection-url></connection-url>
+		</login>
+		<connection-pools>
+			<read-connection-pool>
+				<name>ReadConnectionPool</name>
+			</read-connection-pool>
+			<write-connection-pool>
+				<name>default</name>
+			</write-connection-pool>
+		</connection-pools>
+		<connection-policy />
+	</session>
+</eclipselink-sessions>

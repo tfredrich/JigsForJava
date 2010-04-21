@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="src" path="test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/junit-4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-2.5.5.jar" sourcepath="lib/sources/spring-sources-2.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar" sourcepath="lib/sources/commons-lang-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar" sourcepath="lib/sources/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jbel-0.8.1.jar" sourcepath="lib/sources/jbel-0.8.1-src.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/eclipselink-1.0.2.jar" sourcepath="lib/sources/eclipselink-src-1.0.2.zip"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

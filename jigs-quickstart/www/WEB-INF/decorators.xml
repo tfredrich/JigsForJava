@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/layouts">
+
+	<excludes>
+		<pattern>/*partial=true*</pattern>
+	</excludes>
+
+	<decorator name="outerDecorator" page="outerPage.jsp">
+		<pattern>*/index*</pattern>
+		<pattern>*/signin*</pattern>
+		<pattern>*/loggedout*</pattern>
+	</decorator>
+
+	<decorator name="innerDecorator" page="innerPage.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+</decorators>

@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+    session="false" %>
+<%@ include file="/view/include/taglib.jspf" %>
+<%
+	//contextPath is the path section after the domain:port/ in the URL
+	String contextPath = request.getContextPath();
+	request.setAttribute("contextPath", contextPath);
+%>
